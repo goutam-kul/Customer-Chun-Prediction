@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Churn Prediction</title>
+    <style>
+        body {
+            background-color: hsla(210, 18%, 91%, 0.54);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            width: 80%;
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            text-align: left;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Customer Churn Prediction</h1>
+    
+    <form action="/submit" method="post">
+        <label for="Dependents">Dependents:</label>
+        <input type="text" id="Dependents" name="Dependents" required>
+
+
+        <label for="tenure">Tenure:</label>
+        <input type="number" id="tenure" name="tenure" required>
+
+        <label for="OnlineSecurity">Online Security:</label>
+        <select id="OnlineSecurity" name="OnlineSecurity" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        
+        <label for="OnlineBackup">Online Backup:</label>
+        <select id="OnlineBackup" name="OnlineBackup" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        
+        <label for="DeviceProtection">Device Protection:</label>
+        <select id="DeviceProtection" name="DeviceProtection" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        
+
+        <label for="TechSupport">Tech Support:</label>
+        <select id="TechSupport" name="TechSupport" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        
+
+        <label for="Contract">Contract:</label>
+        <select id="Contract" name="Contract" required>
+            <option value="Month-to-month">Month-to-month</option>
+            <option value="One year">One year</option>
+            <option value="Two year">Two year</option>
+        </select>
+        
+
+        <label for="PaperlessBilling">Paperless Billing:</label>
+        <select id="PaperlessBilling" name="PaperlessBilling" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        
+
+        <label for="MonthlyCharges">Monthly Charges:</label>
+        <input type="number" id="MonthlyCharges" name="MonthlyCharges" step="0.01" required>
+        
+
+        <label for="TotalCharges">Total Charges:</label>
+        <input type="number" id="TotalCharges" name="TotalCharges" step="0.01" required>
+        
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
