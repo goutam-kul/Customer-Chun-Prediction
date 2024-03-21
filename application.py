@@ -6,6 +6,8 @@ from flask import Flask, request, render_template
 
 application = Flask(__name__)
 
+app = application
+
 model = pickle.load(open('model.pkl', 'rb'))
 
 @app.route("/")
