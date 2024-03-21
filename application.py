@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from flask import Flask, request, render_template
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 model = pickle.load(open('model.pkl', 'rb'))
 
