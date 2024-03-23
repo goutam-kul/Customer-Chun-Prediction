@@ -12,7 +12,9 @@ Customer churn is a critical metric for businesses across various industries, es
 - License
 
 # Installation
+`` git clone https://github.com/goutam-kul/Customer-Churn-Prediction.git``
 
+``pip instal -r requirements.txt``
 
 # Usage
 
