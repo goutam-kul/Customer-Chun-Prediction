@@ -23,7 +23,7 @@ Customer churn is a critical metric for businesses across various industries, es
 
 # Usage
 ```in cmd
-'python application.py`
+python application.py
 ```
 
 # Features
