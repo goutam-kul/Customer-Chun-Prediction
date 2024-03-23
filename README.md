@@ -1,8 +1,9 @@
-# Customer-Chun-Prediction
-
 # Overview 
 churn occurs when customers discontinue their relationship with a business or cancel their subscriptions.
 Customer churn is a critical metric for businesses across various industries, especially those with subscription-based models such as telecommunications, software as a service (SaaS), streaming services, and utilities. High churn rates can indicate dissatisfaction among customers, leading to revenue loss and hindering business growth.
+
+![Customer-Churn](https://github.com/goutam-kul/Customer-Churn-Prediction/assets/141641488/9098d6fe-7015-4e41-ac23-f562c559c2ac)
+
 
 # Table of Contents
 - Installation
@@ -12,14 +13,19 @@ Customer churn is a critical metric for businesses across various industries, es
 - License
 
 # Installation
-`` git clone https://github.com/goutam-kul/Customer-Churn-Prediction.git``
+``git clone https://github.com/goutam-kul/Customer-Churn-Prediction.git``
+
+``cd Customer-Churn-Prediction``
 
 ``pip instal -r requirements.txt``
 
 # Usage
 
+``python application.py ``
+
 # Features
 - predict Customer Churn based on Historic Data
+
 ![Screenshot 2024-03-22 145927](https://github.com/goutam-kul/Customer-Churn-Prediction/assets/141641488/b333a13b-21c6-493e-926e-b41d659047fc)
 
 ![Screenshot 2024-03-22 145939](https://github.com/goutam-kul/Customer-Churn-Prediction/assets/141641488/303441cc-6d12-4bc5-8c0f-57c7917bf3c5)
