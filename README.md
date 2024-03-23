@@ -22,8 +22,9 @@ Customer churn is a critical metric for businesses across various industries, es
    pip install -r requirements.txt
 
 # Usage
-
-``python application.py ``
+```in cmd
+'python application.py`
+```
 
 # Features
 - predict Customer Churn based on Historic Data
