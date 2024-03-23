@@ -13,14 +13,14 @@ Customer churn is a critical metric for businesses across various industries, es
 - License
 
 # Installation
-1. ```bash
-`git clone https://github.com/goutam-kul/Customer-Churn-Prediction.git`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/goutam-kul/Customer-Churn-Prediction.git
 
-2. ```in cmd
-``cd Customer-Churn-Prediction``
+2. Install the dependencies:
+   ```in cmd
+   'pip install -r requirements.txt'
 
-3. ```in cmd
-``pip instal -r requirements.txt``
 
 # Usage
 
