@@ -19,8 +19,7 @@ Customer churn is a critical metric for businesses across various industries, es
 
 2. Install the dependencies:
    ```in cmd
-   'pip install -r requirements.txt'
-
+   pip install -r requirements.txt
 
 # Usage
 
@@ -40,7 +39,7 @@ Customer churn is a critical metric for businesses across various industries, es
 - Scikit-Learn
 - Pandas
 - Matplotlib
-- 
+
 # License 
 
 MIT License
